@@ -1,7 +1,7 @@
 
 FROM alpine:latest
 
-MAINTAINER caligari@treboada.net
+MAINTAINER p@philliproberts.dev
 
 RUN apk --no-cache add privoxy 
 ADD privoxy-start.sh /usr/local/bin/
