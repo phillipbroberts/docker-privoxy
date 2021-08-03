@@ -9,5 +9,6 @@ if [ ! -f "${CONFFILE}" ]; then
 	exit 1
 fi
 
+/usr/sbin/dnasguardian 
 /usr/sbin/privoxy --no-daemon --pidfile "${PIDFILE}" "${CONFFILE}"
 
