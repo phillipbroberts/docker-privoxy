@@ -1,14 +1,13 @@
 # docker-privoxy
 
-Privoxy is a "privacy enhancing proxy", filtering Web pages and removing advertisements. This docker container runs privoxy over Alpine Linux in 6 Mb uncompressed image.
-
-The image can be pulled from https://hub.docker.com/r/caligari/privoxy/
+Privoxy is a "privacy enhancing proxy", filtering Web pages and removing advertisements. This docker container runs privoxy over Alpine Linux.
+The image can be pulled from https://hub.docker.com/r/phillipbroberts/privoxy/
 
 ## Run privoxy
 
 (please, __read the security note below__)
 
-    docker run -d --name=privoxy -p 8118:8118 caligari/privoxy:latest
+    docker run -d --name=privoxy -p 8118:8118 phillipbroberts/privoxy:latest
     
 ## Test privoxy
 
