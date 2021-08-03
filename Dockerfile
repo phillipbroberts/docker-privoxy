@@ -11,6 +11,5 @@ RUN chmod +r /etc/privoxy/config && chmod +x /usr/local/bin/privoxy-start.sh
 
 CMD ["privoxy-start.sh"]
 
-EXPOSE 8118
 EXPOSE 8080
 
